@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="丰觅网">
+    <meta name="Description" content="巴拉巴拉巴拉巴拉巴拉巴拉吧" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/qa.css">
+    <title>丰觅网——Q&A</title>
+</head>
+<body>
+<header class="heading">
+    <div class="navbar">
+        <ul class="uling">
+            <li><a href="{{ url_for('user.qa') }}">常见问题</a></li>
+            <li><a href="{{ url_for('user.contact') }}">联系我们</a></li>
+            <li class="fengmi"><a class="sing" href="{{  url_for('user.home')  }}">丰觅网</a></li>
+            <!--<li class="logo1"><img src="../static/pic/images/bee.png" alt="" height="70px" width="70px"></li>-->
+        </ul>
+    </div>
+</header>
+<div class="con">
+    <div class="middle">
+        <p class="hello">Hi！您好</p>
+        <p class="title">猜您想问的问题是：</p>
+        <p class="qq">1、如何使用丰觅网？</p>
+        <p class="aa">答：使用西财校园学号并填写基本信息进行注册，注册成功就可以领取任务或者发表任务啦。账号问题或者其他技术性问题可以扫描下方二维码进行邮箱反馈与申诉。</p>
+        <p class="qq">2、如何提现？</p>
+        <p class="aa">答：在“用户中心”—“我的金库”即可查询余额并提现。</p>
+        <p class="qq">3、在任务完成过程中出了问题怎么解决？</p>
+        <p class="aa">答：请双方尽量沟通协商解决。若无法解决，请双方保留信息交流截图，前往西南财经大学经济信息工程学院丰觅网办公室同工作人员协商调解。</p>
+        <p class="qq">4、如何查看支付记录</p>
+        <p class="aa">答：微信支付：打开您的微信钱包，点击右上角的按钮，然后查找交易记录，再查看详情，详情中即可查看
+            支付宝支付：打开支付宝账单，查询支付记录，点击查看详情，详情中即可查看</p>
+        <p class="qq"> 5、酬劳定价的标准？</p>
+        <p class="aa">答：建议按照任务完成的困难程度、距离、任务内容进行定价。如取快递，取大件建议提高酬金，小件物品建议2~5元。</p>
+        <p class="qq">6、忘记密码怎么办？</p>
+        <p class="aa">答：请在“联系我们”中输入“忘记密码”，输入您的ID并提交，系统会自动将您的密码发送到您ID的绑定邮箱内。</p>
+        <p class="qq">在使用网站的过程中，如有其他问题或是建议请扫描上方丰觅网微信公众号进行反馈</p>
+    </div>
+    <img src="../static/pic/weixin.jpg" alt="" height="100px" width="100px" class="erweima1">
+    <img src="../static/pic/xueyuan.jpg" alt="" height="100px" width="100px" class="erweima2">
+    <a class="zi1">微信公众号</a>
+    <a class="zi2">经济信息工程学院</a>
+
+</div>
+<div class="tails">
+    <p>Copyright © DGT</p>
+</div>
+
+</body>
+</html>

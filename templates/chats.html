@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="丰觅网">
+    <meta name="Description" content="巴拉巴拉巴拉巴拉巴拉巴拉吧" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/chats.css">
+    <title>丰觅网——聊天</title>
+</head>
+<body>
+<header class="heading">
+    <div class="navbar">
+        <ul class="uling">
+            <li><a href="{{ url_for('user.qa') }}">常见问题</a></li>
+            <li><a href="{{ url_for('user.contact') }}">联系我们</a></li>
+            <li><a href="{{  url_for('user.usercenter2')}}">我的消息</a></li>
+            <li><a href="{{ url_for('user.temp') }}">用户中心</a></li>
+            <li class="fengmi"><a class="sing" href="{{  url_for('user.home')  }}">丰觅网</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="con">
+    <div class="box">
+      {% for info in infomation %}
+
+
+
+
+        <ul>
+            <li class="kk"><a  class="date">{{ info['up_data'] }}</a></li>
+            <li class="kk"><a  class="det">{{ info['info'] }}</a></li>
+            <li class="kk"><a  class="mess">{{ info['username'] }}对{{ info['to_username'] }}说：</a></li>
+        </ul>
+        {% endfor %}
+        <div>
+
+        <form action="{{ url_for('info.add_info',to_username=to_username) }}" class="navbar-form" method="post">
+            <div class="inputgroup">
+
+                <input class="inputm" type="text" name="info" placeholder="请输入">
+                <button class="btn3">发送</button>
+            </div>
+        </form>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div class="tail">
+
+    <img src="../static/pic/weixin.jpg" alt="" height="100px" width="100px" class="erweima">
+    <img src="../static/pic/xueyuan.jpg" alt="" height="100px" width="100px" class="erweima">
+    <p><a class="zi">微信公众号</a>  <a >经济信息工程学院</a></p>
+</div>
+<div class="tails">
+    <p>Copyright © DGT</p>
+</div>
+</body>
+</html>

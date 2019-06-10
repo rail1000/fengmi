@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for path in user_path %}
+<!-- 加载用户头像，位置-->
+    path['figure_path']
+{% endfor %}
+<!-- 所有商品信息-->
+{% for goods in tag_goods %}
+    <form action="{{ url_for('shop.shoping') }}">
+{{ goods['id'] }}
+    {{ goods['family'] }}
+    {{ goods['descrip'] }}
+    {{ goods['username'] }}
+    {{ goods['title'] }}
+    {{ goods['money'] }}
+    {{ goods['up_date'] }}
+    {% if goods['close_date'] %}
+        {{ goods['close_date'] }}
+    {% endif %}
+
+<!-- 商品图片位置，使用img标签拼接-->
+
+{{ goods['photo_path'] }}
+    </form>
+{% endfor %}
+
+</body>
+</html>

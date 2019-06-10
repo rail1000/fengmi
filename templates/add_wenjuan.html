@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="丰觅网">
+    <meta name="Description" content="巴拉巴拉巴拉巴拉巴拉巴拉吧" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/publish2.css">
+    <title>丰觅网——发布</title>
+</head>
+<body>
+<header class="heading">
+    <div class="navbar">
+        <ul class="uling">
+            <li><a href="{{ url_for('user.qa') }}">常见问题</a></li>
+            <li><a href="{{ url_for('user.contact') }}">联系我们</a></li>
+            <li><a href="{{  url_for('user.usercenter2')}}">我的消息</a></li>
+            <li><a href="{{ url_for('user.temp') }}">用户中心</a></li>
+            <li class="fengmi"><a class="sing" href="{{  url_for('user.home')  }}">丰觅网</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="con">
+    <div class="box">
+        <div class="box1">
+
+            <div class="item1">
+                <form action="{{ url_for('goods.add_wenjuan') }}" method="post">
+                                        <p><a class="zi11">标题+描述：</a><input type="text" name="title" class="xian1"></p>
+                    <p><a class="zi11">网址：</a><input type="text" name="descrip" class="xian1"></p>
+                    <p><a class="zi11" >金额：(元/人)</a><input type="text" name="money" class="xian1"></p>
+                    <p><a class="zi11">参与人数：(人)</a><input type="text" name="people" class="xian1"></p>
+                    <p><a class="zi11">截止日期：</a><input type="text" name="close_date" class="xian1" placeholder="格式为：2019/01/01/08:00"></p>
+
+                    <button name="confirm" class="btns">确认提交</button>
+                </form>
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+<div class="tail">
+
+    <img src="../static/pic/weixin.jpg" alt="" height="100px" width="100px" class="erweima">
+    <img src="../static/pic/xueyuan.jpg" alt="" height="100px" width="100px" class="erweima">
+    <p><a class="zi">微信公众号</a>  <a >经济信息工程学院</a></p>
+</div>
+<div class="tails">
+    <p>Copyright © DGT</p>
+</div>
+</body>
+
+<script>
+    {% if error %}
+    window.alert("{{  error}}")
+    {% endif %}
+
+</script>
+</html>

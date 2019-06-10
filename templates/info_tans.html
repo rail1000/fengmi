@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="丰觅网">
+    <meta name="Description" content="巴拉巴拉巴拉巴拉巴拉巴拉吧" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/five1.css">
+    <title>丰觅网——信息传递</title>
+</head>
+<body>
+<header class="heading">
+    <div class="navbar">
+        <ul class="uling">
+            <li><a href="{{ url_for('user.qa') }}">常见问题</a></li>
+            <li><a href="{{ url_for('user.contact') }}">联系我们</a></li>
+            <li><a href="{{  url_for('user.usercenter2')}}">我的消息</a></li>
+            <li><a href="{{ url_for('user.temp') }}">用户中心</a></li>
+                  <form action="{{ url_for('goods.all_like') }}" method="post">
+            <li><a class="search">
+                <input type="text" placeholder="请输入搜索内容" class="search1" name="str">
+                <input type="button" value="搜索" class="search2">
+            </a></li>
+            </form>
+            <li class="fengmi"><a class="sing" href="{{  url_for('user.home')  }}">丰觅网</a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="con">
+    <div class="box">
+        <div class="box1">
+            <div class="item1">
+                <a class="title">信息<br>传递</a>
+                <div class="kuang">
+                    <img src="../static/pic/jias.png" alt="" height="30px" width="30px" class="jias">
+                    <button class="btna" onclick="window.location.href='{{ url_for('user.add_infomation') }}'">我要发布</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="box2">
+            <div class="item2">
+
+                {% for goods in tag_goods %}
+                    <p><a class="conte1">{{ loop.index }}</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a class="conte2">{{  goods['title'] }}</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <a class="conte3">{{goods['descrip'] }}</a>&nbsp&nbsp&nbsp<a class="conte4">{{ goods['up_date'] }}</a></p>
+
+                {% endfor %}
+
+
+
+            </div>
+            <div class="pages">
+                <ul class="">
+                    <li class="lii"><a ></a></li>
+                    <li class="lii"><a >页</a></li>
+                    <li class="lii">
+                        <form action="">
+
+
+                            <input type="text" name="pages" class="page">
+                        </form></li>
+                    <li class="lii"> <a href="#">转到</a></li>
+                    <li class="lii"><a href="#">尾页</a></li>
+                    <li class="lii"><a href="#">下一页</a></li>
+
+                    <li class="lii"><a href="#">上一页</a></li>
+
+                    <li class="lii"><a href="#">首页</a></li>
+
+                  <li class="lii"><a href="#">共1页</a></li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="tail">
+
+    <img src="../static/pic/weixin.jpg" alt="" height="100px" width="100px" class="erweima">
+    <img src="../static/pic/xueyuan.jpg" alt="" height="100px" width="100px" class="erweima">
+    <p><a class="zi">微信公众号</a>  <a >经济信息工程学院</a></p>
+</div>
+<div class="tails">
+    <p>Copyright © DGT</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,261 @@
+body{
+    margin: 0;
+    /**background-color: orange;*/
+    background: url("pic/22.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+/**导航栏**/
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white;
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+}
+input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: white;
+}
+.navbar{
+    padding: 0 12%;
+    background-color: rgba(58,103,186,0.6);
+}
+.fengmi{
+    position: absolute;
+    left: 70px;
+}
+.sing{
+    padding: 18px 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 75px;
+    position: relative;
+}
+li {
+    float: right;
+}
+li a {
+    font-size: 19px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    color: white;
+}
+.uling{
+    position: relative;
+}
+.search1{
+    width: 150px;
+    height: 23px;
+    background-color: rgba(256,256,256,0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    margin: 0;
+    padding:1px 0 1px 5px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.search2{
+    background-color: rgba(256,256,256,0);
+    border-radius: 3px;
+    border: 1.5px solid white;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+}
+/**主体**/
+.con{
+    margin: 30px 5%;
+    padding: 30px 5%;
+
+}
+.box{
+    width: 80%;
+    margin: 30px 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 28%;
+    margin: 15px 0;
+}
+
+.item1{
+    width: 80%;
+    margin:20px 0 30px 0;
+
+
+}
+.kuang{
+    height: 50px;
+    position: relative;
+}
+.jias{
+    position: absolute;
+    top: 105px;
+    left: 20px;
+}
+.title{
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+}
+.btna{
+    height: 40px;
+    width: 195px;
+    color: black;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: rgba(220,220,220,0.8);
+    border:  none;
+    margin: 100px 0 50px 0;
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 72%;
+    margin: 15px 0;
+    background-color: rgba(256,256,256,0.7);
+    border-radius: 10px;
+}
+
+.item2{
+    padding: 40px;
+    margin: 0;
+    position: relative;
+}
+.conte1{
+    width: 30px;
+}
+.conte2{
+    width: 80px;
+}
+.conte3{
+    width: 250px;
+}
+.conte4{
+    width: 150px;
+    float:right;
+}
+.pages{
+    height: 50px;
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    color: grey;
+}
+.lii a{
+    font-size: 16px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+.lii a:hover{
+    color: grey;
+}
+.page{
+    width: 30px;
+
+    padding: 3px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 2px;
+
+}
+/**尾部**/
+.tail{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.tails{
+    background-color: rgba(140,140,250,0);
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+.erweima{
+    margin: 15px 10px;
+    padding: 5px;
+}
+.zi{
+    margin: 5px 35px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1180px) {
+    .fengmi{
+        position: absolute;
+        left: -20px;
+    }
+
+    .pages{
+        height: 50px;
+        width: 100%;
+        padding: 5px;
+        margin: 5px 2px;
+        color: grey;
+    }
+    .lii a{
+        font-size: 14px;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 10px 5px;
+        margin: 10px 5px;
+        text-decoration: none;
+    }
+    .lii a:hover{
+        color: grey;
+    }
+    .page{
+        width: 20px;
+        padding: 3px;
+        margin: 20px 0;
+        border: none;
+        border-radius: 2px;
+
+    }
+    .btna{
+        width: 150px;
+        margin: 50px 0 50px 0;
+        font-size: 18px;
+    }
+    .jias{
+        top: 55px;
+        left: 5px;
+    }
+}

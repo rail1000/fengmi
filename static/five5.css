@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    /**background-color: orange;*/
+    background: url("pic/34.jpeg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+/**导航栏**/
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white;
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+
+}
+input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: white;
+}
+.navbar{
+    padding: 0 12%;
+    background-color: rgba(234,142,155,0);
+}
+.fengmi{
+    position: absolute;
+    left: 70px;
+}
+.sing{
+    padding: 18px 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 75px;
+    position: relative;
+}
+li {
+    float: right;
+}
+li a {
+    font-size: 19px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    color: white;
+}
+.uling{
+    position: relative;
+}
+.search1{
+    width: 150px;
+    height: 23px;
+    background-color: rgba(256,256,256,0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    margin: 0;
+    padding:1px 0 1px 5px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.search2{
+    background-color: rgba(256,256,256,0);
+    border-radius: 3px;
+    border: 1.5px solid white;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+}
+/**主体**/
+.con{
+    margin: 30px 5%;
+    padding: 30px 5%;
+
+}
+.box{
+    width: 90%;
+    margin: 30px 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 28%;
+    margin: 15px 0;
+}
+
+.item1{
+    width: 80%;
+    margin:20px 0 30px 0;
+
+
+}
+.kuang{
+    height: 50px;
+    position: relative;
+}
+.jias{
+    position: absolute;
+    top: 105px;
+    left: 20px;
+}
+.title{
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+}
+.btna{
+    height: 40px;
+    width: 195px;
+    color: black;
+    font-size: 20px;
+    border-radius: 3px;
+    background-color: rgba(220,220,220,0.8);
+    border:  none;
+    margin: 100px 0 50px 0;
+
+
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 72%;
+    margin: 15px 0;
+    background-color: rgba(256,256,256,0.7);
+    border-radius: 10px;
+}
+.ling{
+    padding: 5px 30px 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.cons{
+    width: 220px;
+    text-align: center;
+}
+.liii a{
+    display: block;
+    text-align: left;
+    padding: 10px 45px;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.liii a:hover{
+    color: white;
+}
+
+.item2{
+    padding: 0 30px;
+    margin: 0;
+    position: relative;
+}
+.l0{
+    padding: 5px 30px 5px 0;
+}
+.l1{
+    width: 250px;
+}
+.l2{
+    width: 50px;
+}
+.l3{
+    width: 400px;
+}
+.l1 a{
+    display: block;
+    padding: 10px;
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: left;
+    color: black;
+}
+.l1 a:hover{
+    color: black;
+}
+.l2 a{
+    display: block;
+    padding: 10px;
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: left;
+    color: black;
+}
+.l2 a:hover{
+    color: black;
+}
+.l3 a{
+    display: block;
+    padding: 10px;
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: left;
+    color: black;
+}
+.l3 a:hover{
+    color: black;
+}
+.contents{
+    text-decoration: none;
+    width: 250px;
+    text-align: left;
+}
+.pages{
+    height: 50px;
+    width: 100%;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    color: grey;
+}
+.lii a{
+    font-size: 16px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+.lii a:hover{
+    color: grey;
+}
+.page{
+    width: 30px;
+
+    padding: 3px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 2px;
+
+}
+/**尾部**/
+.tail{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.tails{
+    background-color: rgba(140,140,250,0);
+    padding: 2px;
+    text-align: center;
+    color: black;
+}
+.erweima{
+    margin: 15px 10px;
+    padding: 5px;
+}
+.zi{
+    margin: 5px 35px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 1340px) {
+    .fengmi{
+        position: absolute;
+        left: -20px;
+    }
+    .ling{
+        padding: 5px 15px 5px 0;
+    }
+    .cons{
+        width: 200px;
+    }
+    .liii a{
+        padding: 10px 15px;
+        margin: 10px 15px;
+    }
+    .l0{
+        padding: 5px 20px 5px 0;
+    }
+    .l1 a{
+        padding: 10px 8px;
+        margin: 10px 10px;
+
+        font-size: 16px;
+    }
+    .contents{
+        width: 220px;
+    }
+
+}
+@media screen and (max-width: 1160px) {
+
+    .ling{
+        padding: 5px 10px 5px 0;
+    }
+    .cons{
+        width: 160px;
+    }
+    .liii a{
+        padding: 10px 10px;
+        margin: 10px 10px;
+    }
+    .l0{
+        padding: 5px 10px 5px 0;
+    }
+    .l1 a{
+        padding: 10px 8px;
+        margin: 10px 10px;
+
+        font-size: 14px;
+    }
+    .contents{
+        width: 150px;
+    }
+
+    .pages{
+        height: 50px;
+        width: 100%;
+        padding: 5px;
+        margin: 5px;
+    }
+    .lii a{
+        font-size: 15px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .lii a:hover{
+        color: grey;
+    }
+    .page{
+        width: 20px;
+        margin: 8px 4px;
+
+    }
+
+}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="丰觅网">
+    <meta name="Description" content="巴拉巴拉巴拉巴拉巴拉巴拉吧" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>丰觅网——登录</title>
+</head>
+<body>
+<header class="heading">
+    <div class="navbar">
+        <ul class="uling">
+            <li><a href="{{ url_for('user.qa') }}">常见问题</a></li>
+            <li><a href="{{ url_for('user.contact') }}">联系我们</a></li>
+            <li class="fengmi"><a class="sing">丰觅网</a></li>
+            <!--<li class="logo1"><img src="../static/pic/images/bee.png" alt="" height="70px" width="70px"></li>-->
+        </ul>
+    </div>
+</header>
+<div class="meng">
+<div class="con">
+    <div class="box1">
+        <div class="jumu">
+            <!--<img  class="logo2" src="../static/pic/logo.png" alt="" height="300px" width="300px">-->
+            <div class="login">
+                <a class="fm">FM</a>
+                <div class="nei">
+                    <form action="{{ url_for('user.login') }}" method="post">
+                    <input class="name" type="text" name="username" placeholder="请输入用户名" />
+                    <input class="name" type="password" name="password" />
+                    <button class="btn" >登录</button>
+</form>
+                    <a href="{{ url_for('user.qa') }}" class="forget">忘记密码</a>
+                    <a href="{{ url_for('user.register') }}" class="forget">注册</a>
+                </div>
+            </div>
+            
+            
+        </div>
+
+
+
+
+
+    </div>
+
+</div>
+
+
+
+<div class="tail">
+
+    <img src="../static/pic/weixin.jpg" alt="" height="100px" width="100px" class="erweima">
+    <img src="../static/pic/xueyuan.jpg" alt="" height="100px" width="100px" class="erweima">
+    <p><a class="zi">微信公众号</a>  <a >经济信息工程学院</a></p>
+</div>
+<div class="tails">
+    <p>Copyright © 2019- DGT</p>
+</div>
+</div>
+</body>
+
+<script>
+    {% if error %}
+    window.alert("{{  error}}")
+    {% endif %}
+
+</script>
+</html>

@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    /**background-color: orange;*/
+    background: url("pic/50.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+/**导航栏**/
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: grey;
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: grey;
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: grey;
+}
+input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: grey;
+}
+.navbar{
+    padding: 0 230px;
+    background-color: rgba(222,214,184,0.7);
+}
+.fengmi{
+    position: absolute;
+    left: 70px;
+}
+.sing{
+    padding: 18px 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 75px;
+    position: relative;
+}
+li {
+    float: right;
+}
+li a {
+    font-size: 19px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    color: white;
+}
+.uling{
+    position: relative;
+}
+/**主体**/
+.con{
+    margin: 30px 15% 30px 10%;
+    padding: 30px 10%;
+    width: 55%;
+}
+.box{
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0;
+    padding: 50px 10%;
+    background-color: rgba(256,256,256,0.4);
+}
+.mess{
+    text-decoration: none;
+    font-size: 18px;
+    color: #555555;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    width: 200px;
+
+}
+.det{
+    text-decoration: none;
+    font-size: 18px;
+    color: #555555;
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    width: 200px;
+}
+.date{
+    font-size: 16px;
+    color: #555555;
+    text-align: right;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+
+}
+.kk a:hover{
+    color: grey;
+}
+.inputm{
+    background-color: rgba(256,256,256,0.8);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    width: 450px;
+}
+.btn3{
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+
+    background-color: rgba(256,256,256,0.8);
+
+}
+
+/**尾部**/
+.tail{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.tails{
+    background-color: rgba(140,140,250,0);
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+.erweima{
+    margin: 15px 10px;
+    padding: 5px;
+}
+.zi{
+    margin: 5px 35px;
+    padding: 5px;
+}

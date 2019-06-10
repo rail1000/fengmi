@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    /**background-color: orange;*/
+    background: url("pic/19.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+/**导航栏**/
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: grey;
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: grey;
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: grey;
+}
+input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: grey;
+}
+.navbar{
+    padding: 0 12%;
+    background-color: rgba(226,53,57,0);
+}
+.fengmi{
+    position: absolute;
+    left: 70px;
+}
+.sing{
+    padding: 18px 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 75px;
+    position: relative;
+}
+li {
+    float: right;
+}
+li a {
+    font-size: 19px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    color: white;
+}
+.uling{
+    position: relative;
+}
+
+/**主体**/
+.con{
+    margin: 20px 13%;
+    padding: 20px 50px;
+
+}
+.middle{
+    margin: 35px;
+    padding: 40px 100px;
+    background-color: rgba(240,240,240,0.9);
+    border-radius: 10px;
+    color: black;
+    position: relative;
+
+}
+.hello{
+    font-size: 23px;
+    font-weight: bold;
+
+}
+.title{
+    font-size: 21px;
+}
+.qq{
+    font-size: 18px;
+}
+.aa{
+    font-size: 17px;
+    color: #555555;
+}
+
+
+
+
+/**尾部**/
+
+.erweima1{
+    margin: 10px 10px;
+    padding: 3px;
+    position: absolute;
+    left: 62%;
+    top: 29%;
+}
+.erweima2{
+    margin: 10px 10px;
+    padding: 3px;
+    position: absolute;
+    left: 50%;
+    top: 29%;
+}
+.zi1{
+    margin: 5px 35px;
+    padding: 5px;
+    position: absolute;
+    left: 61%;
+    top: 23%;
+}
+.zi2{
+    margin: 5px 35px;
+    padding: 5px;
+    position: absolute;
+    left: 47.5%;
+    top: 23%;
+}
+.tails{
+    background-color: rgba(255,140,0,0);
+    padding: 2px;
+    text-align: center;
+    color: #f1f1f1;
+}

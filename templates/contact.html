@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content="丰觅网">
+    <meta name="Description" content="巴拉巴拉巴拉巴拉巴拉巴拉吧" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/cont.css">
+    <title>丰觅网——联系我们</title>
+</head>
+<body>
+<header class="heading">
+    <div class="navbar">
+        <ul class="uling">
+            <li><a href="{{ url_for('user.qa') }}">常见问题</a></li>
+            <li><a href="{{ url_for('user.contact') }}">联系我们</a></li>
+            <li class="fengmi"><a class="sing" href="{{  url_for('user.home')  }}">丰觅网</a></li>
+            <!--<li class="logo1"><img src="../static/pic/images/bee.png" alt="" height="70px" width="70px"></li>-->
+        </ul>
+    </div>
+</header>
+<div class="con">
+    <div class="middle">
+        <form action="">
+            <p class="tishi">请输入您的建议或疑问：</p>
+            <textarea name="feedback" id="feedback" cols="70" rows="10" class="feedback"></textarea>
+
+            <p class="tishi">请输入您的ID：</p>
+            <input class="idd" type="text" name="username" />
+            <button class="btnbtn">确认提交</button>
+
+
+
+
+        </form>
+
+    </div>
+
+
+
+
+</div>
+
+<div class="tail">
+    <img src="../static/pic/weixin.jpg" alt="" height="100px" width="100px" class="erweima">
+    <img src="../static/pic/xueyuan.jpg" alt="" height="100px" width="100px" class="erweima">
+    <p><a class="zi">微信公众号</a>  <a >经济信息工程学院</a></p>
+</div>
+<div class="tails">
+    <p>Copyright © DGT</p>
+</div>
+
+</body>
+</html>

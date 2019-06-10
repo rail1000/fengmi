@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    /**background-color: orange;*/
+    background: url("pic/23.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+/**导航栏**/
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: grey;
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: grey;
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: grey;
+}
+input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: grey;
+}
+.navbar{
+    padding: 0 12%;
+    background-color: rgba(226,53,57,0);
+}
+.fengmi{
+    position: absolute;
+    left: 70px;
+}
+.sing{
+    padding: 18px 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.fm{
+    font-size: 29em;
+    position: absolute;
+    left: -150px;
+    bottom: 0px;
+    color: rgba(0,0,0,0.7);
+    font-family: "Adobe Caslon Pro";
+}
+/**.logo1{
+    position: absolute;
+    left: 1px;
+}*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 75px;
+    position: relative;
+}
+li {
+    float: right;
+}
+li a {
+    font-size: 19px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    color: white;
+}
+.uling{
+    position: relative;
+}
+
+/**主体**/
+.con{
+    margin: 0;
+    padding: 133px 0 130px 0;
+}
+.box1{
+    /**background: url("pic/background.png");/**路径有问题
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #8186d5;**/
+
+}
+.jumu{
+    margin: 0 10%;
+    height: 550px;
+}
+.logo2{
+    margin: 100px;
+    padding: 10px;
+
+}
+.login{
+    background-color: rgba(256,256,256,0.6);
+    position: relative;
+    margin: 0 10.8%;
+    padding: 150px 10.8%;
+    width: 700px;
+    height: 320px;
+    border-radius: 10px;
+}
+.nei{
+    width: 350px;
+    position: absolute;
+    right: 50px;
+    top:120px;
+
+}
+
+
+.name{
+    margin: 15px 30px;
+    height: 35px;
+    width: 240px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 18px;
+
+}
+.forget{
+    margin: 35px 33px 15px 33px;
+    padding: 5px;
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+.forget:hover{
+    color: white;
+}
+.btn{
+    margin: 20px 33px;
+    padding: 5px 15px;
+    height: 45px;
+    width: 265px;
+    border-radius: 4px;
+    font-size: 23px;
+    border: none;
+    background-color: gainsboro;
+    color: #727272;
+}
+
+
+.meng{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(226,53,57,0);
+}
+/**尾部**/
+.tail{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.tails{
+    background-color: rgba(140,140,250,0);
+    padding: 2px;
+    text-align: center;
+    color: #f1f1f1;
+}
+.erweima{
+    margin: 15px 10px;
+    padding: 5px;
+}
+.zi{
+    margin: 5px 35px;
+    padding: 5px;
+}
+
+

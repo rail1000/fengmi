@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    /**background-color: orange;*/
+    background: url("pic/37.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+/**导航栏**/
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: grey;
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: grey;
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: grey;
+}
+input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: grey;
+}
+.navbar{
+    padding: 0 12%;
+    background-color: rgba(135,197,234,0.6);
+}
+.fengmi{
+    position: absolute;
+    left: 70px;
+}
+.sing{
+    padding: 18px 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 75px;
+    position: relative;
+}
+li {
+    float: right;
+}
+li a {
+    font-size: 19px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    color: white;
+}
+.uling{
+    position: relative;
+}
+/**主体**/
+.con{
+    margin: 30px 5%;
+    padding: 30px 5%;
+
+}
+.box{
+    width: 80%;
+    margin: 30px 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 35%;
+    margin: 15px 1.5%;
+    background-color: rgba(256,256,256,0.8);
+    border-radius: 10px;
+}
+
+.item1{
+    width: 80%;
+    padding: 40px 10%;
+    position: relative;
+    height: 380px;
+}
+
+
+.file {
+    position: relative;
+    display: inline-block;
+    background: gainsboro;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    padding: 15px 30px;
+    overflow: hidden;
+    color: gray;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 20px;
+    font-size: 25px;
+    margin: 350px 20px 30px 40px;
+
+}
+.file input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+.file:hover {
+    background: gainsboro;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+
+.uploading{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 56%;
+    margin: 15px 3%;
+    background-color: rgba(256,256,256,0.8);
+    border-radius: 10px;
+}
+
+.item2{
+    padding: 30px;
+    margin: 0 30px;
+}
+.titb{
+    font-size: 23px;
+    font-weight: bold;
+}
+.tits{
+    font-size: 17px;
+}
+.input1{
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+    height: 28px;
+    width: 100%;font-size: 19px;
+
+    background-color: rgba(256,256,256,0.5);
+}
+.input2{
+    border: 1px solid darkgrey;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 100%;
+
+    background-color: rgba(256,256,256,0.5);
+
+}
+.btnb{
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(256,256,256,0.9);
+    font-size: 24px;
+    padding: 10px 25px;
+    margin: 10px 50px;
+}
+/**尾部**/
+.tail{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.tails{
+    background-color: rgba(140,140,250,0);
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+.erweima{
+    margin: 15px 10px;
+    padding: 5px;
+}
+.zi{
+    margin: 5px 35px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1300px) {
+    .fengmi{
+        position: absolute;
+        left: -20px;
+    }
+
+
+}

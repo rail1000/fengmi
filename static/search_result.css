@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+
+    background: url("pic/39.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+}
+
+/**导航栏**/
+input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white;
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+}
+input::-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: white;
+}
+.navbar{
+    padding: 0 12%;
+    background-color: rgba(100,121,134,0.6);
+}
+
+.fengmi{
+    position: absolute;
+    left: 70px;
+}
+.sing{
+    margin: 0;
+    padding: 18px 25px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.logo1{
+    position: absolute;
+    left: 1px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 75px;
+    position: relative;
+}
+li {
+    float: right;
+}
+li a {
+    font-size: 19px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+li a:hover {
+    color: grey;
+}
+.uling{
+    position: relative;
+}
+.search1{
+    width: 150px;
+    height: 23px;
+    background-color: rgba(256,256,256,0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid white;
+    margin: 0;
+    padding:1px 0 1px 5px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.search2{
+    background-color: rgba(256,256,256,0);
+    border-radius: 3px;
+    border: 1.5px solid white;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+}
+
+/**主体**/
+
+.con{
+    margin: 0 15%;
+    padding: 0;
+}
+.box{
+    margin: 30px 0;
+    color: gray;
+    height: 300px;
+    background-color: rgba(256,256,256,0.8);
+    font-size: 16.5px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.geshi{
+    width: 250px;
+    margin: 5px 30px;
+    padding: 0 30px;
+
+
+}
+/**尾部**/
+.tail{
+    margin: 0;
+    padding: 11px;
+    text-align: center;
+    color: white;
+}
+.tails{
+    padding: 2px;
+    text-align: center;
+    color: white;
+}
+.erweima{
+    margin: 11px 10px;
+    padding: 5px;
+}
+.zi{
+    margin:3px 35px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .fengmi{
+        position: absolute;
+        left: -20px;
+    }
+    .item1{
+        height: 180px;
+    }
+    .item2{
+        height: 180px;
+    }
+    .item3{
+        height: 180px;
+    }
+    .item4{
+        height: 180px;
+    }
+    .item5{
+        height: 180px;
+    }
+    .zi1{
+        font-size: 1.7em;
+        top: 21%;
+    }
+    .item6{
+        height: 180px;
+    }
+    .zi2{
+        font-size: 1.3em;
+        top: 36%;
+        width: 88%;
+        padding: 0;
+        margin: 2% 0 2% 10%;
+    }
+    .jia{
+        top: 3%;
+        left: 3%;
+        height: 160px;
+        width: 160px;
+    }
+    li a {
+        font-size: 18px;
+        padding: 25px 5px;
+    }
+
+}
